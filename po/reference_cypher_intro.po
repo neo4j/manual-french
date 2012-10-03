@@ -1,0 +1,149 @@
+# Copyright (C) 2012 Neo Technology.
+#
+# Christophe Willemsen, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: neo 4j\n"
+"POT-Creation-Date: 2012-10-03 20:53+0300\n"
+"PO-Revision-Date: 2012-10-03 21:50+0200\n"
+"Last-Translator: Christophe Willemsen <willemsen.christophe@gmail.com>\n"
+"Language-Team: French <https://github.com/neo4j/manual-french>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 1.4\n"
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/introduction.txt:5
+msgid ""
+"_Cypher_ is a declarative graph query language that allows for expressive "
+"and efficient querying and updating of the graph store without having to "
+"write traversals through the graph structure in code. Cypher is still "
+"growing and maturing, and that means that there probably will be breaking "
+"syntax changes. It also means that it has not undergone the same rigorous "
+"performance testing as other Neo4j components."
+msgstr ""
+"Cypher est un langage de requêtage déclaratif pour les graphes. Il vous "
+"permet, "
+"d'une manière efficiente et expressive, de requêter et mettre à jour votre "
+"graphe sans "
+"devoir écrire de traversiers. Cypher est en pleine expansion et devient de "
+"plus en plus mature, ce qui "
+"signifie qu'il y aura probablement certains changements de syntaxe non "
+"rétro-compatibles. "
+"Cela signifie aussi qu'il n'a pas encore subi les mêmes tests rigoureux de "
+"performance des autres "
+"composants Neo4j."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/introduction.txt:10
+msgid ""
+"Cypher is designed to be a humane query language, suitable for both "
+"developers and (importantly, we think) operations professionals who want to "
+"make ad-hoc queries on the database. Our guiding goal is to make the simple "
+"things simple, and the complex things possible. Its constructs are based on "
+"English prose and neat iconography, which helps to make it (somewhat) self-"
+"explanatory."
+msgstr ""
+"Cypher est désigné à être un langage de requêtage humain, approprié pour les "
+"développeurs et ( nous pensons que cela est important ) "
+"pour les professionnels du département opérations qui veulent faire des "
+"requêtes ad-hoc sur la base de données. "
+"Notre ligne de conduite est de rendre simple les choses simples, et les "
+"choses complexes possibles. Ses constructeurs sont basés sur "
+"une prose d'Anglais et une iconographie aisée ce qui le rend ( dans un sens ) "
+"auto-déclaratif."
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/introduction.txt:14
+msgid ""
+"Cypher is inspired by a number of different approaches and builds upon "
+"established practices for expressive querying.  Most of the keywords like "
+"+WHERE+ and +ORDER BY+ are inspired by http://en.wikipedia.org/wiki/SQL"
+"[SQL]. Pattern matching borrows expression approaches from http://en."
+"wikipedia.org/wiki/SPARQL[SPARQL]."
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/introduction.txt:20
+msgid ""
+"Being a declarative language, Cypher focuses on the clarity of expressing "
+"_what_ to retrieve from a graph, not _how_ to do it, in contrast to "
+"imperative languages like Java, and scripting languages like http://gremlin."
+"tinkerpop.com[Gremlin] (supported via the <<gremlin-plugin>>) and http://"
+"neo4j.rubyforge.org/[the JRuby Neo4j bindings]. This makes the concern of "
+"how to optimize queries an implementation detail not exposed to the user."
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/introduction.txt:22
+msgid "The query language is comprised of several distinct clauses."
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/introduction.txt:24
+msgid ""
+"+START+: Starting points in the graph, obtained via index lookups or by "
+"element IDs."
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/introduction.txt:26
+msgid ""
+"+MATCH+: The graph pattern to match, bound to the starting points in +START+."
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/introduction.txt:28
+msgid "+WHERE+: Filtering criteria."
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/introduction.txt:30
+msgid "+RETURN+: What to return."
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/introduction.txt:32
+msgid "+CREATE+: Creates nodes and relationships."
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/introduction.txt:34
+msgid "+DELETE+: Removes nodes, relationships and properties."
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/introduction.txt:36
+msgid "+SET+: Set values to properties."
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/introduction.txt:38
+msgid "+FOREACH+: Performs updating actions once per element in a list."
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/introduction.txt:40
+msgid "+WITH+: Divides a query into multiple, distinct parts."
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/introduction.txt:43
+msgid "Let's see three of them in action."
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/introduction.txt:45
+msgid "include::intro-examples.txt[]"
+msgstr ""
+
+#. type: Plain text
+#: target/original/docs/neo4j-cypher-docs-jar/dev/introduction.txt:48
+msgid ""
+"To use Cypher from Java, see <<tutorials-cypher-java>>.  For more Cypher "
+"examples, see <<data-modeling-examples>> as well."
+msgstr ""
+

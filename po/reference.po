@@ -1,0 +1,107 @@
+# Copyright (C) 2012 Neo Technology.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: neo 4j\n"
+"POT-Creation-Date: 2012-10-03 20:53+0300\n"
+"PO-Revision-Date: 2012-10-03 20:53+0300\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. type: Title =
+#: target/original/src/reference/index.asciidoc:3
+#, no-wrap
+msgid "Reference"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/reference/index.asciidoc:8
+msgid ""
+"The reference part is the authoritative source for details on Neo4j usage.  "
+"It covers details on capabilities, transactions, indexing and queries among "
+"other topics."
+msgstr ""
+
+#. type: Attribute :leveloffset:
+#: target/original/src/reference/index.asciidoc:10
+#: target/original/src/reference/index.asciidoc:14
+#: target/original/src/reference/index.asciidoc:18
+#: target/original/src/reference/index.asciidoc:22
+#: target/original/src/reference/index.asciidoc:26
+#: target/original/src/reference/index.asciidoc:30
+#: target/original/src/reference/index.asciidoc:34
+#: target/original/src/reference/index.asciidoc:38
+#: target/original/src/reference/index.asciidoc:50
+#, no-wrap
+msgid "1"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/reference/index.asciidoc:13
+msgid "include::capabilities/cap-details.asciidoc[]"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/reference/index.asciidoc:17
+msgid "include::{importdir}/neo4j-kernel-docs-jar/dev/transactions.txt[]"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/reference/index.asciidoc:21
+msgid "include::import/import.asciidoc[]"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/reference/index.asciidoc:25
+msgid "include::{importdir}/neo4j-lucene-index-docs-jar/dev/index.txt[]"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/reference/index.asciidoc:29
+msgid "include::{importdir}/neo4j-cypher-docs-jar/dev/index.txt[]"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/reference/index.asciidoc:33
+msgid "include::{importdir}/neo4j-graph-algo-docs-jar/dev/index.txt[]"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/reference/index.asciidoc:37
+msgid "include::{importdir}/neo4j-server-docs-jar/dev/index.txt[]"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/reference/index.asciidoc:41
+msgid "include::{importdir}/neo4j-server-docs-jar/dev/rest-api/index.txt[]"
+msgstr ""
+
+#. type: Attribute :leveloffset:
+#: target/original/src/reference/index.asciidoc:42
+#: target/original/src/reference/index.asciidoc:46
+#, no-wrap
+msgid "2"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/reference/index.asciidoc:45
+msgid ""
+"include::{importdir}/neo4j-cypher-plugin-docs-jar/dev/cypher-plugin-api/"
+"index.txt[]"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/reference/index.asciidoc:49
+msgid ""
+"include::{importdir}/neo4j-gremlin-plugin-docs-jar/dev/rest-api/index.txt[]"
+msgstr ""
+
+#. type: Plain text
+#: target/original/src/reference/index.asciidoc:53
+msgid "include::{importdir}/neo4j-python-embedded-docs-jar/dev/index.txt[]"
+msgstr ""
